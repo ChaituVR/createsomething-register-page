@@ -6,7 +6,7 @@ $(document).ready(function(){
         var target = e.target;
         $("#kn-loading-spinner").css('display','block');
         $.ajax({
-            url: 'https://api.knack.com/v1/applications/5c03eee0a8850d08a58c6499/session',
+            url: 'https://api.knack.com/v1/applications/5c4ad9bf55ea24085312138e/session',
             type: 'post',
             data: {
                 "email":target.email.value || '',
