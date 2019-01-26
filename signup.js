@@ -19,7 +19,7 @@ $(document).ready(function(){
                 "parent_url":"https://createsomething.io/cs-course/login#"
             },
             headers: {
-                'X-Knack-Application-Id': '5c4ad9bf55ea24085312138e', 
+                'X-Knack-Application-Id': '5c03eee0a8850d08a58c6499', 
                 'X-Knack-REST-API-Key': 'renderer'
             },
             dataType: 'json',
